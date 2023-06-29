@@ -36,7 +36,8 @@
         "A dud?",
         "I'm not a hero. Never was. Never will be.",
         "Hey, this text random algorithm is not that random. It's tied to uniform distribution.",
-        "TACTICAL NUKE INCOMING!"]
+        "TACTICAL NUKE INCOMING!",
+        "So, as a joke, I went to my friend's house wearing Tsubasa Hanekawa's wig and clothes."]
 
     const randomHeroTextIndex = Math.floor(Math.random() * randomHeroText.length);
     const randomHeroTextValue = randomHeroText[randomHeroTextIndex];

@@ -25,7 +25,7 @@
                     ];
 
     // pick one text randomly
-    const text = texts[Math.floor(Math.random() * texts.length)];
+    let text = texts[Math.floor(Math.random() * texts.length)];
 
     const texts500 = [
         "Oopsie!",
@@ -38,7 +38,7 @@
         "I said bring me 115, not 500!",
         "Not your fault."]
 
-    const text500 = texts500[Math.floor(Math.random() * texts500.length)];
+    let text500 = texts500[Math.floor(Math.random() * texts500.length)];
 </script>
 
 <div class="hero min-h-screen">
