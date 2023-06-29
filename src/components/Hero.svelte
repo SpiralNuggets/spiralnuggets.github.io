@@ -39,14 +39,16 @@
         "TACTICAL NUKE INCOMING!",
         "So, as a joke, I went to my friend's house wearing Tsubasa Hanekawa's wig and clothes."]
 
-    const randomHeroTextIndex = Math.floor(Math.random() * randomHeroText.length);
-    const randomHeroTextValue = randomHeroText[randomHeroTextIndex];
+    let randomHeroTextIndex = Math.floor(Math.random() * randomHeroText.length);
+    let randomHeroTextValue = randomHeroText[randomHeroTextIndex];
 
     let count = 0;
 
     function refreshPage() {
         count++;
     }
+
+    let staticpage = true; // should be true if built for github pages
 
     let theme = 'Light';
 </script>
@@ -56,7 +58,11 @@
     <!-- stick to the left -->
     <div class="hero-content text-neutral-content text-center">
         <div class="max-w-md">
+            {#if staticpage}
+            <h1 class="mb-5 text-5xl font-bold">GitHub hates fun.</h1>
+            {:else}
             <h1 class="mb-5 text-5xl font-bold">{randomHeroTextValue}</h1>
+            {/if}
             <button on:click={() => window.location.reload()} class="btn glass btn-primary">What?</button>
         </div>
     </div>
