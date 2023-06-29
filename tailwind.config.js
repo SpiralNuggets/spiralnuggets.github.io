@@ -12,7 +12,7 @@ export default {
 
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: ["emerald", "dracula", "lofi", "black"],
   },
