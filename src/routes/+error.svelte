@@ -36,9 +36,19 @@
         "Hey. don't blame me! I work on backend stuff.",
         "Good ol 0.5k.",
         "I said bring me 115, not 500!",
-        "Not your fault."]
+        "Not your fault.",
+        "Get out of here, Weaver. Tell them I failed.",
+        "At least it didn't fail hard as Redfall."]
 
     let text500 = texts500[Math.floor(Math.random() * texts500.length)];
+
+    let staticpage = true; // should be true if built for github pages
+
+    if(staticpage){
+        text = "404 Not Found. No joke because GitHub Pages disallows dynamic pages."
+        text500 = "500 Internal Server Error. No joke because GitHub Pages disallows dynamic pages."
+    }
+
 </script>
 
 <div class="hero min-h-screen">
