@@ -1,6 +1,6 @@
 <script>
     import "../app.css";
-
+    import {onMount} from "svelte";
     const randomHeroText = [
         "Bell, we've got a job to do.",
         "I built this with Svelte and Tailwind with a little to zero knowledge of either.",
@@ -11,7 +11,7 @@
         "I'm a software engineer who was forced to fix computers, do IT works, graphic design, and now frontend development.",
         "Lycoris Recoil is the GOAT",
         "Spiral V3.5 Flash Hider, FSS Sharkfin 90, Otrezat Stock, True-Tac Grip",
-        "undefined",
+        "undefined.",
         "She was a React girl, he was a Svelte boy.",
         "Apparently you have to jump Pin 16 and 17 on the ATX 24 pin connector to turn on the PSU.",
         "Arduino is the best thing since sliced bread.",
@@ -37,20 +37,20 @@
         "I'm not a hero. Never was. Never will be.",
         "Hey, this text random algorithm is not that random. It's tied to uniform distribution.",
         "TACTICAL NUKE INCOMING!",
-        "So, as a joke, I went to my friend's house wearing Tsubasa Hanekawa's wig and clothes."]
+        "So, as a joke, I went to my friend's house wearing Tsubasa Hanekawa's wig and clothes.",
+        "Reznov's dead, Mason. You hear me? He's dead."]
 
-    let randomHeroTextIndex = Math.floor(Math.random() * randomHeroText.length);
-    let randomHeroTextValue = randomHeroText[randomHeroTextIndex];
+    let heroText = "GitHub hates fun.";
 
-    let count = 0;
 
-    function refreshPage() {
-        count++;
-    }
+    //TODO: make this actually random the text in a static page. is it even possible?
+    onMount (() => {
+        heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
 
-    let staticpage = true; // should be true if built for github pages
+        return () => heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
+    })
 
-    let theme = 'Light';
+    let staticpage = false; // should be true if built for github pages
 </script>
 
 <div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/kR7OOCL-nroAAAAC/ryo-yamada-thumbs-up.gif);">
@@ -60,10 +60,11 @@
         <div class="max-w-md">
             {#if staticpage}
             <h1 class="mb-5 text-5xl font-bold">GitHub hates fun.</h1>
+            <p class="mb-5">I'm sorry if there are no intended funny random quotes.</p>
             {:else}
-            <h1 class="mb-5 text-5xl font-bold">{randomHeroTextValue}</h1>
+            <h1 class="mb-5 text-5xl font-bold">{heroText}</h1>
             {/if}
-            <button on:click={() => window.location.reload()} class="btn glass btn-primary">What?</button>
+            <a href="#bio"><button class="btn glass btn-primary">What?</button></a>
         </div>
     </div>
 </div>

@@ -15,6 +15,9 @@ const config = {
 			strict: false
 	})
 	},
+	paths: {
+		base: process.env.NODE_ENV === 'production' ? '/spiralnuggets.github.io' : ''
+	},
 	preprocess: vitePreprocess()
 };
 
