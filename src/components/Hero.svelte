@@ -11,7 +11,7 @@
         "I'm a software engineer who was forced to fix computers, do IT works, graphic design, and now frontend development.",
         "Lycoris Recoil is the GOAT",
         "Spiral V3.5 Flash Hider, FSS Sharkfin 90, Otrezat Stock, True-Tac Grip",
-        "undefined.",
+        "undefined",
         "She was a React girl, he was a Svelte boy.",
         "Apparently you have to jump Pin 16 and 17 on the ATX 24 pin connector to turn on the PSU.",
         "Arduino is the best thing since sliced bread.",
@@ -38,10 +38,28 @@
         "Hey, this text random algorithm is not that random. It's tied to uniform distribution.",
         "TACTICAL NUKE INCOMING!",
         "So, as a joke, I went to my friend's house wearing Tsubasa Hanekawa's wig and clothes.",
-        "Reznov's dead, Mason. You hear me? He's dead."]
+        "Reznov's dead, Mason. You hear me? He's dead.",
+        "The best Battlefield game is Battlefield 2.",
+        "The best Battlefield game is Bad Company 2.",
+        "read sayonara zetsubou sensei",
+        "If you like cute shows, consider watching Puella Magi Madoka Magica.*",
+        "Darth Vader is Luke's father. Sorry for spoiling it.",
+        "vtwi;t",
+        "Unit 731",
+        '"Sanban, soutenshu, Akiyama Yukari!"',
+        "If he has a Yukari Akiyama profile pic, run.",
+        "Step 1: Secure the keys.",
+        "You name is Alex Mason, You were born in Fairbanks, Alaska. In 1961, you served in a CIA assassination team known as Operation 40. Is this correct?",
+        "On your feet, soldier. We are leaving.",
+        "Brutal Garcon Huff-Huffs a Half Blood Boy",
+        "Chances are, you did not play Idol by Yoasobi on a knife round in CS:GO.",
+        "Node.js is a mistake.",
+        "Remember, no Russian.",
+        "God of War leaving your daughter quick time event",
+        "にゃにゃめにゃにゃじゅうにゃにゃどのにゃらびでにゃくにゃくいにゃにゃくにゃにゃはんにゃにゃだいにゃんにゃくにゃらべてにゃがにゃがめ"]
 
     let heroText = "GitHub hates fun.";
-
+    heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
 
     //TODO: make this actually random the text in a static page. is it even possible?
     onMount (() => {
