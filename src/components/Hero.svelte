@@ -56,17 +56,22 @@
         "Node.js is a mistake.",
         "Remember, no Russian.",
         "God of War leaving your daughter quick time event",
-        "にゃにゃめにゃにゃじゅうにゃにゃどのにゃらびでにゃくにゃくいにゃにゃくにゃにゃはんにゃにゃだいにゃんにゃくにゃらべてにゃがにゃがめ"]
+        "にゃにゃめにゃにゃじゅうにゃにゃどのにゃらびでにゃくにゃくいにゃにゃくにゃにゃはんにゃにゃだいにゃんにゃくにゃらべてにゃがにゃがめ",
+        "My name is Jugemu-Jugemu Goko-no surikire Kaijarisuigyo-no Suigyomatsu Unraimatsu Furaimatsu Ku Neru Tokoro-ni Sumu Tokoro Yabura Koji-no Bura Koji Paipo-paipo Paipo-no-shuringan Shuringan-no Gurindai Gurindai-no Ponpokopi-no Ponpokona-no Chokyumei-no Chosuke.",
+        "Sakana 🐟"]
 
     let heroText = "GitHub hates fun.";
+    
     heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
 
-    //TODO: make this actually random the text in a static page. is it even possible?
-    onMount (() => {
-        heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
-
-        return () => heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
+    onMount(() => {
+        if (staticpage) {
+            heroText = "GitHub hates fun.";
+        } else {
+            heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
+        }
     })
+
 
     let staticpage = false; // should be true if built for github pages
 </script>
@@ -80,7 +85,7 @@
             <h1 class="mb-5 text-5xl font-bold">GitHub hates fun.</h1>
             <p class="mb-5">I'm sorry if there are no intended funny random quotes.</p>
             {:else}
-            <h1 class="mb-5 text-5xl font-bold">{heroText}</h1>
+            <h1 id=herotextdom class="mb-5 text-5xl font-bold">{heroText}</h1>
             {/if}
             <a href="#bio"><button class="btn glass btn-primary">What?</button></a>
         </div>

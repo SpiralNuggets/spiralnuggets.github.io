@@ -3,6 +3,8 @@
 
     import Bio from "./Bio.svelte";
     import Hero from "./Hero.svelte";
+
+
 </script>
 
 <div class="drawer lg:drawer-open">
@@ -14,7 +16,7 @@
             </label>
         </div>
         <div class="flex-none hidden lg:block"></div>
-        <Hero />
+        <Hero /> 
         <Bio />   
     </div>
 
