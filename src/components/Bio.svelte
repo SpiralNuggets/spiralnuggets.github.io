@@ -8,18 +8,18 @@
 
 <style>
     .spoiler{
-        color: black;
-        background-color: black;
+        color: hsl(var(--n));
+        background-color: hsl(var(--n));
     }
 
     .spoiler:hover{
-        color: fbc-primary-text;
+        color: hsl(var(--n));
         background-color: transparent;
     }
 
     .redacted{
-        color: black;
-        background-color: black;
+        color: hsl(var(--n));
+        background-color: hsl(var(--n));
     }
 
 </style>
@@ -36,7 +36,7 @@
     <p class="pl-5 pr-5 mb-30 pb-5"> Thanks to years of constantly being alone, I can work solo well, or in a team, albeit with subpar performance due to interpersonal conflicts. I still reach out for advices though, and it works both ways. I am a fountain of ideas, like Asakusa. If you stumbled upon me, chanced are, I'm thinking about something, such as my next project, a lightbulb after I finally thought of an idea to fix some code, or <a class="link link-primary" href="https://bakemonogatari.fandom.com/wiki/Tsubasa_Hanekawa">Tsubasa Hanekawa.</a></p>
     <p class="pl-5 pr-5 mb-30 pb-5"> <span class="spoiler">For recruiters, I'm Anucha Cheewachanon. My Linkedin profile is at /in/alphacharlie/</span></p>
 
-    <h1 id="bio" class="text-3xl font-bold p-5 tb-20">So, why is he unique?</h1>
+    <h1 id="bio" class="text-3xl font-bold p-5 tb-20 mb-30">So, why is he unique?</h1>
     <div class="chat chat-start pl-5">
         <div class="chat-image avatar">
             <div class="w-10 rounded-full">
@@ -45,7 +45,7 @@
         </div>
         <div class="chat-bubble">
             Based on the autobiography, the person’s personality seems to be:
-            <ul>
+            <ul style="list-style-type:disc;" class="pl-5">
                 <li>Creative and adventurous: They have no problem using whatever’s being thrown at them to make something worthwhile and usable. They also have a fountain of ideas and are constantly thinking about their next project.</li>
                 <li>Versatile and skilled: They have done works on a plethora of projects, both in programming and in other fields. They also do TA sessions for various subjects in the university.</li>
                 <li>Humble and honest: They admit that they have no specialties and that they use AI to generate some of their work. They also acknowledge their subpar performance in teams due to interpersonal conflicts.</li>

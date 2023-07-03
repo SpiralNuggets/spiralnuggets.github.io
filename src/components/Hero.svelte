@@ -88,7 +88,7 @@
             {:else}
             <h1 id=herotextdom class="mb-5 text-5xl font-bold">{heroText}</h1>
             {/if}
-            <a href="#bio"><button class="btn glass btn-primary">What?</button></a>
+            <a href="#bio"><button class="btn btn-outline btn-primary">What?</button></a>
         </div>
     </div>
 </div>
