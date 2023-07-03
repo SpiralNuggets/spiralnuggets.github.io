@@ -61,23 +61,23 @@
         "God of War leaving your daughter quick time event",
         "にゃにゃめにゃにゃじゅうにゃにゃどのにゃらびでにゃくにゃくいにゃにゃくにゃにゃはんにゃにゃだいにゃんにゃくにゃらべてにゃがにゃがめ",
         "My name is Jugemu-Jugemu Goko-no surikire Kaijarisuigyo-no Suigyomatsu Unraimatsu Furaimatsu Ku Neru Tokoro-ni Sumu Tokoro Yabura Koji-no Bura Koji Paipo-paipo Paipo-no-shuringan Shuringan-no Gurindai Gurindai-no Ponpokopi-no Ponpokona-no Chokyumei-no Chosuke.",
-        "Sakana 🐟"]
+        "Sakana 🐟",
+        "Teacher, I want to talk about my life. What should I do from now on? Are you just going to tell me 'no one knows that' or something?",
+        "Oarai Town actually exists? Damn. On your feet soldier, we are leaving.",
+        "chiraq",
+        "The world, for 2 pounds? Yessir!",
+        "girls und panzer fan search history"]
 
     let heroText = "GitHub hates fun.";
 
-    onMount(() => {
-        if (staticpage) {
-            heroText = "GitHub hates fun.";
-        } else {
-            heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
-        }
-    })
-
-
     let staticpage = true; // should be true if built for github pages
+
+    if (!staticpage){
+        heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
+    }
 </script>
 
-<div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/kR7OOCL-nroAAAAC/ryo-yamada-thumbs-up.gif);">
+<div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/6JqZ2aCEy4UAAAAC/captain-price-captain-john-price.gif);">
     <div class="hero-overlay bg-opacity-70"></div>
     <!-- stick to the left -->
     <div class="hero-content text-neutral-content text-center">
@@ -88,7 +88,7 @@
             {:else}
             <h1 id=herotextdom class="mb-5 text-5xl font-bold">{heroText}</h1>
             {/if}
-            <a href="#bio"><button class="btn btn-outline btn-primary">What?</button></a>
+            <a href="#bio"><button class="btn btn-outline btn-primary btn-wide">What?</button></a>
         </div>
     </div>
 </div>
