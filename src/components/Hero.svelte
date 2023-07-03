@@ -64,8 +64,6 @@
         "Sakana 🐟"]
 
     let heroText = "GitHub hates fun.";
-    
-    heroText = randomHeroText[Math.floor(Math.random() * randomHeroText.length)];
 
     onMount(() => {
         if (staticpage) {
@@ -76,7 +74,7 @@
     })
 
 
-    let staticpage = false; // should be true if built for github pages
+    let staticpage = true; // should be true if built for github pages
 </script>
 
 <div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/kR7OOCL-nroAAAAC/ryo-yamada-thumbs-up.gif);">

@@ -50,11 +50,12 @@
     let text500 = texts500[Math.floor(Math.random() * texts500.length)];
     let text429 = random429[Math.floor(Math.random() * random429.length)];
 
-    let staticpage = false; // should be true if built for github pages
+    let staticpage = true; // should be true if built for github pages
 
     if(staticpage){
         text = "404 Not Found. No joke because GitHub Pages disallows dynamic pages."
         text500 = "500 Internal Server Error. No joke because GitHub Pages disallows dynamic pages."
+        text429 = "Guess who rated limited me? GitHub Pages."
     }
 
 </script>
