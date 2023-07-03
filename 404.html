@@ -1,4 +1,5 @@
 <script>
+
     const texts = ["You may have mistyped the address or the page may have moved.",
                     "I don't know everything, including the existence of this webpage.",
                     "The lost snail may have brought you here.",
@@ -22,17 +23,26 @@
                     "You have found the cow level!",
                     "You have found the person that asked!",
                     "Bell, we've got a job to do.",
-                    ""
                     ];
 
     // pick one text randomly
     const text = texts[Math.floor(Math.random() * texts.length)];
 </script>
 
-<h1> 404: Not Found</h1>
-<p id="text"></p>
-<script>
-    document.getElementById("text").innerHTML = text;
-</script>
+<head>
+    <title>404</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.7/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- gigachad move -->
+</head>
 
-<p>Go back to <a href="/">home</a>.</p> 
+<div class="hero min-h-screen">
+    <div class="hero-content text-center">
+        <div class="max-w-md">
+            <h1 class="text-5xl font-bold mb-10"><script>document.write(text)</script></h1>
+            <p class="mb-5">404 Not Found</p>
+            
+            <a href="/" class="btn btn-primary">Go back to home</a>
+        </div>
+    </div>
+</div>
