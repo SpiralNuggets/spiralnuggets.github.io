@@ -40,9 +40,17 @@
         "Get out of here, Weaver. Tell them I failed.",
         "At least it didn't fail hard as Redfall."]
 
-    let text500 = texts500[Math.floor(Math.random() * texts500.length)];
+    let random429 = [
+        "We gettin rate limited, yo!",
+        "At least its not me flooding Spotify's API.",
+        "redlinin da github server yo",
+        "Jesse, we're getting rate limited"
+    ]
 
-    let staticpage = true; // should be true if built for github pages
+    let text500 = texts500[Math.floor(Math.random() * texts500.length)];
+    let text429 = random429[Math.floor(Math.random() * random429.length)];
+
+    let staticpage = false; // should be true if built for github pages
 
     if(staticpage){
         text = "404 Not Found. No joke because GitHub Pages disallows dynamic pages."
@@ -59,6 +67,9 @@
                 <p class="py-6">{$page.status}: {$page.error.message}</p>
             {:else if $page.status === 500}
                 <h1 class="text-5xl font-bold">{text500}</h1>
+                <p class="py-6">{$page.status}: {$page.error.message}</p>
+            {:else if $page.status === 429}
+                <h1 class="text-5xl font-bold">{text429}</h1>
                 <p class="py-6">{$page.status}: {$page.error.message}</p>
             {:else}
                 <h1 class="text-5xl font-bold">Error {$page.status}</h1>

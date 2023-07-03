@@ -4,6 +4,7 @@
     import Bio from '../components/Bio.svelte';
     import Sidebar from '../components/Sidebar.svelte';
 
+
 </script>
 
 <Sidebar/>

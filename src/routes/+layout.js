@@ -1,4 +1,4 @@
-export const prerender = false;
+export const prerender = true;
 
 import { onMount } from 'svelte'
 import { themeChange } from 'theme-change'

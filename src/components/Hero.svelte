@@ -1,6 +1,9 @@
 <script>
     import "../app.css";
     import {onMount} from "svelte";
+
+    export const prerender = false;
+
     const randomHeroText = [
         "Bell, we've got a job to do.",
         "I built this with Svelte and Tailwind with a little to zero knowledge of either.",
