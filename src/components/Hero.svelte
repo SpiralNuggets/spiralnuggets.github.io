@@ -66,7 +66,15 @@
         "Oarai Town actually exists? Damn. On your feet soldier, we are leaving.",
         "chiraq",
         "The world, for 2 pounds? Yessir!",
-        "girls und panzer fan search history"]
+        "girls und panzer fan search history",
+        "THAT is Viktor Novikov, head of Sanguine and ringleader of IAGO. Quite the resume.",
+        "I'm in despair! [any new javascript fullstack framework] has left me in despair!",
+        "Bocchi the outdated and obsoleted AngularJS app",
+        "pnpm > npm > yarn",
+        "Ready or Not? Of course not, it's still in Early Access.",
+        "<davidmason>",
+        "You must have Juggernog drank in order to use this website, because this website may be too spicy for you.",
+        ""]
 
     let heroText = "GitHub hates fun.";
 
@@ -77,6 +85,7 @@
     }
 </script>
 
+<header>
 <div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/6JqZ2aCEy4UAAAAC/captain-price-captain-john-price.gif);">
     <div class="hero-overlay bg-opacity-70"></div>
     <!-- stick to the left -->
@@ -92,3 +101,4 @@
         </div>
     </div>
 </div>
+</header>

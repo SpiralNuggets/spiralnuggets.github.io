@@ -25,6 +25,7 @@
 </style>
 
 
+<section>
 <div>
     <h1 id="bio" class="text-4xl font-bold p-5 justify-center" >I should put this section out first, right?</h1>
     <p class="pl-5 pr-5 mb-30">People on the internet that is not recruiters call me SpiralNuggets. I'm a Software Engineering Undergrad from KMITL. I actually have no specialties and have no problem using whatever's being thrown at me to make something worthwile and usable. This includes reinventing the wheel for a simple Arduino project, committing myself to make stupid gameplay compilation videos every single month, running a meme group full of niche memes, literally compiling Tailwind components into a website which looks like a single step from WWW-era sites, making <a class="link link-primary" href="https://github.com/dulapahv/Kanbaru">an actual software</a> and more.</p>
@@ -53,6 +54,6 @@
             </ul>
         </div>
     </div>
-    
 </div>
+</section>
 
