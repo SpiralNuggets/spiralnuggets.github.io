@@ -61,8 +61,8 @@
     </form>
 
 
-    <footer class="footer">
-        <p>Play <a class="link link-primary" href="https://www.youtube.com/watch?v=ADIP3Um32Gc">this song</a> for the full experience</p>
+    <footer class="footer justify-center">
+        <p>This page was really made by Anucha Cheewachanon.</p>
     </footer>
 </body>
 </html>
