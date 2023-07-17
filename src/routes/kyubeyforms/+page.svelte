@@ -9,7 +9,7 @@
     <h1 class="text-primary text-4xl font-bold text-center">Sis Puella Magica!</h1>
     <h3 class="text-primary-content text-2xl text-center">GitHub don't take this down! it's my assignment!</h3>
 
-<form class = "pl-10 text-center">
+<form class = "text-center">
     <label for="name">Full name:</label>
     <input type="text" placeholder="Type Here" id="name" name="name" class="input input-bordered input-primary input-sm"><br>
 
