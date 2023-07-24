@@ -2,6 +2,7 @@
     import "../app.css"; //lmao cope harder react users
 </script>
 
+<section>
 <div class="bg-secondary text-secondary-content bg-opacity-70">
     <h1 id="origin" class="text-4xl font-bold p-5 mb-5">Backgrounds</h1>
     <p class="m-5 pl-5"> Hope you're in for one on the most undecorated section ever</p>
@@ -17,12 +18,15 @@
             <dd class="pl-10">King Mongkut's Institute of Technology Ladkrabang - Ongoing</dd>
     </dl>
 </div>
+</section>
 
+<section>
 <div class="bg-accent-focus text-accent-content">
     <h1 id="skills" class="text-4xl font-bold p-5 mb-5 flex justify-right">What can I do and what I can't?</h1>
     <p class="mb-5 pl-5"> Maybe we could just copy and paste that from <a href="https://github.com/SpiralNuggets" class="link">my GitHub profile?</a></p>
 
-    <div class="mockup-window border bg-accent px-5 pl-10">
+    <div class="mockup-window border bg-neutral">
+        <div class="px-5 pl-10">
         <h2>I can code in:</h2>
         <ul style="list-style-type:disc;">
             <li>C (and its ++ brethren)</li>
@@ -35,12 +39,14 @@
             <li>Raspi</li>
             <li>Shellscript</li>
         </ul>
+        <br>
         <h2>For non-computing parts, I can do</h2>
         <ul style="list-style-type:disc;">
             <li>Adobe Photoshop</li>
             <li>GIMP</li>
             <li>Adobe Premiere</li>
         </ul>
+        <br>
         <h2>For non-computer related, I have</h2>
         <ul style="list-style-type:disc;">
             <li>Basic Firearms Training</li>
@@ -52,3 +58,4 @@
         <br>
     </div>
 </div>
+</section>
