@@ -4,7 +4,7 @@
 
 <div class="bg-secondary text-secondary-content bg-opacity-70">
     <h1 id="origin" class="text-4xl font-bold p-5 mb-5">Backgrounds</h1>
-    <p class="mb-5 pl-5"> Hope you're in for one on the most undecorated section ever</p>
+    <p class="m-5 pl-5"> Hope you're in for one on the most undecorated section ever</p>
 
     <dl class="mb-5 pl-5" style="list-style-type:disc;">    
         <dt><b>Kindergarten School</b></dt>
@@ -49,6 +49,6 @@
             <li>Ability to play Through The Fire And Flames on Guitar Hero (actually was)</li>
             <li>Experience in Rust (Call of Duty map)</li>
         </ul>
-
+        <br>
     </div>
 </div>
