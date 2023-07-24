@@ -25,7 +25,7 @@
     <h1 id="skills" class="text-4xl font-bold p-5 mb-5 flex justify-right">What can I do and what I can't?</h1>
     <p class="mb-5 pl-5"> Maybe we could just copy and paste that from <a href="https://github.com/SpiralNuggets" class="link">my GitHub profile?</a></p>
 
-    <div class="mockup-window border bg-neutral">
+    <div class="mockup-browser border bg-neutral">
         <div class="px-5 pl-10">
         <h2>I can code in:</h2>
         <ul style="list-style-type:disc;">
