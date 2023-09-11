@@ -4,6 +4,8 @@
     import Bio from "./Bio.svelte";
     import Hero from "./Hero.svelte";
     import Origin from "./Origin.svelte";
+    import Projects from "./Projects.svelte";
+    import Skills from "./Skills.svelte";
 
 
 </script>
@@ -20,15 +22,16 @@
         <Hero /> 
         <Bio />
         <Origin />
+        <Skills />
+        <Projects />
     </div>
 
         <div class="drawer-side">
             <label for="sidebar-drawer" class="drawer-overlay"></label>
             <ul class="menu p-4 w-40 h-full bg-base-200 text-base-content">
-                <li><a>Header</a></li>
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#origin">Origin</a></li>
-                <li><a>Skills</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a>Project</a></li>
                 <li><a>FAQ</a></li>
             </ul>
