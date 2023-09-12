@@ -86,7 +86,7 @@
 </script>
 
 <header>
-<div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/6JqZ2aCEy4UAAAAC/captain-price-captain-john-price.gif);">
+<div class ="hero min-h-screen" style="background-image: url(https://media.tenor.com/qZatoBrJlZ0AAAAC/sons-of-the-forest-the-forest.gif);">
     <div class="hero-overlay bg-opacity-70"></div>
     <!-- stick to the left -->
     <div class="hero-content text-neutral-content text-center">

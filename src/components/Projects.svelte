@@ -5,6 +5,9 @@
 </script>
 
 <section>
+
+    <h1 id="projects" class="text-4xl font-bold p-5 justify-center">Projects</h1>
+
     <div class="carousel">
         <div class="carousel-item p-5">
             <MonthlyCards />

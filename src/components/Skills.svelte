@@ -1,3 +1,7 @@
+<script>
+        import "../app.css"; //lmao cope harder react users
+</script>
+
 <section>
     <div class="bg-accent-focus text-accent-content">
         <h1 id="skills" class="text-4xl font-bold p-5 mb-5 flex justify-right">What can I do and what I can't?</h1>

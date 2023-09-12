@@ -6,6 +6,7 @@
     import Origin from "./Origin.svelte";
     import Projects from "./Projects.svelte";
     import Skills from "./Skills.svelte";
+    import FAQ from "./FAQ.svelte";
 
 
 </script>
@@ -24,6 +25,7 @@
         <Origin />
         <Skills />
         <Projects />
+        <FAQ />
     </div>
 
         <div class="drawer-side">
