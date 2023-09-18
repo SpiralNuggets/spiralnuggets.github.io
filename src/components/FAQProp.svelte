@@ -1,8 +1,8 @@
 <script>
     import "../app.css"; //lmao cope harder react users
     export let pfp = "https://www.anisearch.com/images/character/cover/full/0/408.webp"
-    export let q = "Why is the MP5 always the best gun in every FPS game?"
-    export let a = "Because the developers don't know guns, because they were paid off by HK, or because the fact that the Iranian Embassy Siege has become the ad for the MP5."
+    export let q = "This is a placeholder question for the FAQ component."
+    export let a = "Hmm yes, and this is a placeholder answer for the FAQ component."
 </script>
 
 <div>
