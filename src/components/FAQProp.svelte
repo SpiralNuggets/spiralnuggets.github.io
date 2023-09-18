@@ -6,18 +6,18 @@
 </script>
 
 <div>
-    <div class="chat chat-start p-5">
+    <div class="chat chat-start px-5">
         <div class="chat-image avatar">
-            <div class="w-10 mb-10 rounded-full">
+            <div class="w-10 rounded-full">
                 <img src="{pfp}"/>
             </div>
         </div> 
-        <div class="chat-bubble mb-10">
+        <div class="chat-bubble">
             <span class="spoiler">{q}</span>
         </div>
     </div>
-    <div class="chat chat-end p-5">
-        <div class="chat-bubble mb-10">
+    <div class="chat chat-end px-5 mb-10">
+        <div class="chat-bubble">
             <span class="spoiler">{a}</span>
         </div>
     </div>

@@ -7,6 +7,7 @@
     import Projects from "./Projects.svelte";
     import Skills from "./Skills.svelte";
     import FAQ from "./FAQ.svelte";
+    import Footer from "./Footer.svelte";
 
 
 </script>
@@ -26,6 +27,7 @@
         <Skills />
         <Projects />
         <FAQ />
+        <Footer />
     </div>
 
         <div class="drawer-side">
@@ -34,8 +36,8 @@
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#origin">Origin</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a>Project</a></li>
-                <li><a>FAQ</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </div>
 </div>

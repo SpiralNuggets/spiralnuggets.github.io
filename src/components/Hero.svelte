@@ -74,7 +74,13 @@
         "Ready or Not? Of course not, it's still in Early Access.",
         "<davidmason>",
         "You must have Juggernog drank in order to use this website, because this website may be too spicy for you.",
-        ""]
+        "i hate django (the framework). i like django (the character) btw.",
+        "Marked One is actually Strelok.",
+        "ATTENTION STALKERS: An emission is approaching. I repeat, an emission is approaching. Seek cover immediately.",
+        "Hey there, would you like to sign my petition?",
+        "I think my mom would like Sasaki To Miyano",
+        "u see i need my payday, 2",
+        "I like the part where he said 'It's morbin time!' and morbed all over the place",]
 
     let heroText = "GitHub hates fun.";
 
