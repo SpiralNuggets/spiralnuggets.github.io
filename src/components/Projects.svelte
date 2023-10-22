@@ -7,7 +7,7 @@
 
 <section>
 
-    <h1 id="projects" class="text-4xl font-bold p-5 justify-center">Projects</h1>
+    <h1 id="projects" class="text-4xl font-bold p-5 justify-center vw">Projects</h1>
 
     <div class="carousel p-5">
         <div class="carousel-item p-5">

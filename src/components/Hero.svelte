@@ -80,7 +80,12 @@
         "Hey there, would you like to sign my petition?",
         "I think my mom would like Sasaki To Miyano",
         "u see i need my payday, 2",
-        "I like the part where he said 'It's morbin time!' and morbed all over the place",]
+        "I like the part where he said 'It's morbin time!' and morbed all over the place",
+        "Se no, INTERNETO YAMERO",
+        "Heat Action: Essence of Bad Web Design",
+        "Heat Action: Essence of TailwindCSS",
+        "JavaScript be making a new framework every week",
+        "No one uses Prolog anymore"]
 
     let heroText = "GitHub hates fun.";
 
