@@ -1,3 +1,7 @@
+<script>
+    let yes = false;
+</script>
+
 <html lang=en>
 
 <head>
@@ -53,9 +57,8 @@
         
     </div>
 
-    <input type="checkbox" id="terms" name="terms">
+    <input type="checkbox" id="terms" name="terms" bind:checked={yes}>
     <label for="terms">I agree to the terms and conditions</label><br>
-    
     <input class="btn btn-primary" type="submit" value="Submit" alt="Nooo don't! Don't trust Kyubey!">
     <!-- How do I link on clicks? I only use Svelte! -->
     </form>

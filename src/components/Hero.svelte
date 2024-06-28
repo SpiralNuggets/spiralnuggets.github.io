@@ -85,7 +85,9 @@
         "Heat Action: Essence of Bad Web Design",
         "Heat Action: Essence of TailwindCSS",
         "JavaScript be making a new framework every week",
-        "No one uses Prolog anymore"]
+        "No one uses Prolog anymore",
+        "I hate Scythian Horse Archers",
+        ""]
 
     let heroText = "GitHub hates fun.";
 

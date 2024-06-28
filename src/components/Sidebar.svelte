@@ -25,7 +25,6 @@
         <Bio />
         <Origin />
         <Skills />
-        <Projects />
         <FAQ />
         <Footer />
     </div>
