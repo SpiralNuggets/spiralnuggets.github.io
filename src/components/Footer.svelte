@@ -15,6 +15,8 @@
             <a href="https://youtu.be/51GIxXFKbzk?si=dBynq0bIrt6ebpZO&t=176">About</a>
             <a href="https://linktr.ee/spiralnuggets">Link in bio</a>
             <a href="https://github.com/SpiralNuggets">Github</a>
+            <a href="https://blog.spiralnuggets.com">Blog</a>
+            <a href="https://kosuzumaverick.spiralnuggets.com">KosuzuMaverick Project</a>
         </nav>
         <nav>
             <span class="footer-title">Projects Backlinks</span>

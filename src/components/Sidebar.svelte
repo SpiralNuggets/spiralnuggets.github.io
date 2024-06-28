@@ -35,7 +35,6 @@
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#origin">Origin</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Project</a></li>
                 <li><a href="#faq">FAQ</a></li>
             </ul>
         </div>
